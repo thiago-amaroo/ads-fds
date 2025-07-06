@@ -23,7 +23,7 @@ ul {
 
 #tabela {
     width: 500px;
-    border: solid 4px gray
+    border: solid 4px gray;
 }
 
 #tabela tr:nth-child(odd) {
@@ -36,7 +36,7 @@ ul {
 
 #tabela img {
     width: 300px;
-    margin: 10px   
+    margin: 10px ;
 }
 
 .link:hover {

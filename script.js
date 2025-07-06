@@ -1,5 +1,5 @@
 const botao = document.querySelector("#botao");
-const divMensagem = document.querySelector("#mensagem")
+const divMensagem = document.querySelector("#mensagem");
 
 const frases = [
     "Acredite no seu potencial. Cada passo, por menor que seja, te leva mais perto do seu objetivo.",
@@ -9,15 +9,15 @@ const frases = [
     "Persista. O sucesso não é final, o fracasso não é fatal: é a coragem de continuar que conta."
 ]
 
-let indexFrase = 0
+let indexFrase = 0;
 
 botao.addEventListener("click", (e) => {
 
-    divMensagem.innerHTML = frases[indexFrase]
+    divMensagem.innerHTML = frases[indexFrase];
 
     if(indexFrase === 4) {
-        indexFrase = 0
+        indexFrase = 0;
     } else {
-        indexFrase++
+        indexFrase++;
     }
 })
