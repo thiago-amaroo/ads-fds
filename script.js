@@ -20,4 +20,4 @@ botao.addEventListener("click", (e) => {
     } else {
         indexFrase++;
     }
-})
+});
