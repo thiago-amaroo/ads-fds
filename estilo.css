@@ -1,0 +1,44 @@
+body {
+    background-color: bisque;
+}
+
+h1 {
+    color: brown;
+    text-align: center;
+}
+
+.paragrafo {
+    font-size: 22px;
+    text-align: justify;
+}
+
+ul {
+    line-height: 1.75;
+}
+
+#imagem-programador {
+    border-radius: 20px;
+    width: 500px;
+}
+
+#tabela {
+    width: 500px;
+    border: solid 4px gray
+}
+
+#tabela tr:nth-child(odd) {
+    background-color: rgb(198, 198, 198);
+}
+
+#tabela tr:nth-child(even) {
+    background-color: rgb(221, 221, 221);
+}
+
+#tabela img {
+    width: 300px;
+    margin: 10px   
+}
+
+.link:hover {
+    color:brown;
+}
